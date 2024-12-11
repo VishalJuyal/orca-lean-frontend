@@ -1,0 +1,59 @@
+.container {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #f4f4f4;
+}
+
+.user-table td {
+  background-color: #fff;
+  width: 33%;
+}
+
+.button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.edit-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.save-button {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.cancel-button {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.select-designation {
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}

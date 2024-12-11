@@ -1,0 +1,28 @@
+.chart-container {
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+canvas {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  canvas {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+  }
+}
